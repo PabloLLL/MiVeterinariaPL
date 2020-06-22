@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiVeterinaria.Common", "MiVeterinaria.Common\MiVeterinaria.Common.csproj", "{A62FBFF9-B1FF-4A2B-AAFB-7F3FC71A9E62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiVeterinaria.Web", "MiVeterinaria.Web\MiVeterinaria.Web.csproj", "{62E3A362-3EA2-4E17-BB0E-A63A19ABB086}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A62FBFF9-B1FF-4A2B-AAFB-7F3FC71A9E62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A62FBFF9-B1FF-4A2B-AAFB-7F3FC71A9E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A62FBFF9-B1FF-4A2B-AAFB-7F3FC71A9E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A62FBFF9-B1FF-4A2B-AAFB-7F3FC71A9E62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62E3A362-3EA2-4E17-BB0E-A63A19ABB086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62E3A362-3EA2-4E17-BB0E-A63A19ABB086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62E3A362-3EA2-4E17-BB0E-A63A19ABB086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E3A362-3EA2-4E17-BB0E-A63A19ABB086}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D869BE9-22F7-4790-815B-3E220AEB65F4}
+	EndGlobalSection
+EndGlobal
