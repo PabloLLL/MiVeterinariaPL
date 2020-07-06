@@ -13,36 +13,40 @@ namespace MiVeterinaria.Web.Data.Entities
 
         [Required]
         [MaxLength(30)]
-        public string documento { get; set; }
+        public string Documento { get; set; }
 
         [Required]
         [MaxLength(50)]
         [Display(Name = "Nombre")]
-        public string nombre { get; set; }
+        public string Nombre { get; set; }
 
         [Required]
         [MaxLength(50)]
         [Display(Name = "Apellido")]
-        public string apellido { get; set; }
+        public string Apellido { get; set; }
 
         [Required]
         [MaxLength(20)]
         [Display(Name = "Teléfono Fijo")]
-        public string telFijo { get; set; }
+        public string TelFijo { get; set; }
 
         [Required]
         [MaxLength(20)]
         [Display(Name = "Teléfono Celular")]
-        public string telCelular { get; set; }
+        public string TelCelular { get; set; }
 
         [MaxLength(100)]
-        public string direccion { get; set; }
+        public string Direccion { get; set; }
 
         [Display(Name = "Propietario")]
-        public string NombreApellido =>  $"{nombre} {apellido}";
+        public string NombreApellido =>  $"{Nombre} {Apellido}";
 
         [Display(Name = "Propietario")]
-        public string nombreApellidoConDocumento =>  $"{nombre} {apellido} - {documento}";
+        public string nombreApellidoConDocumento =>  $"{Nombre} {Apellido} - {Documento}";
+
+        public ICollection<Mascota> Mascotas { get; set; }
+
+        public ICollection<Agenda> Agendas { get; set; }
 
     }
 }

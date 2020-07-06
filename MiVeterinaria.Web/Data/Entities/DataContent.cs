@@ -11,9 +11,14 @@ namespace MiVeterinaria.Web.Data.Entities
 
         public DataContext(DbContextOptions<DataContext> options) : base(options)
         {
-
         }
         public DbSet<Propietario> Propietarios { get; set; }
+        public DbSet<TipoMascota> TipoMascotas { get; set; }
+        public DbSet<Mascota> Mascotas { get; set; }
+        public DbSet<TipoServicio> TipoServicios { get; set; }
+        public DbSet<Historia> Historias { get; set; }
+        public DbSet<Agenda> Agendas { get; set; }
+
 
     }
 }
